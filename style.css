@@ -71,7 +71,7 @@ left: 55%}
 		.wrapper {height: 750px; width:320px;
 			position: fixed;
 			left:5%;
-			top: 1%;
+			bottom: 10%;
 			align-items: center;
 			flex-direction: column;
 			justify-content: center;
@@ -92,25 +92,25 @@ left: 55%}
 			  border-radius: 190px}
 		    .buttons
 			{position: fixed;
-			top: 77%;
+			top: 80%;
 			left:50%;}
 			.backbutton {width:180%;
 				position:fixed;
-				top:77%;
+				top:80%;
 				left:15%;
 			}
 			
 			.forwardbutton{ width:130%;
 				position:fixed;
-				top:77%;
+				top:80%;
 				left: 65%}
 			.pp{
 			display: none;
 			}
 			.ppbutton{ position: fixed;
-			bottom: 20%;
+			bottom: 17%;
 			left:41%;}
 			.total-duration{ position: fixed;
-				top:57%;
+				top:63%;
 			left: 65%}
 		}
