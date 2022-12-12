@@ -58,6 +58,10 @@
 <script src= "script.js"> </script>
  <script src= "scriptVol.js"> </script>
 <script src="swup.js"></script>
- <script> const swup = new Swup();</script>
+<script src="SwupScriptsPlugin.min.js"></script>
+ <script> const swup = new Swup({
+  plugins: [new SwupScriptsPlugin(  body: true
+)]
+});</script>
 </body>
 </html>
