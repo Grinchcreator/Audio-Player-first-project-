@@ -57,13 +57,19 @@
     <img src="forwardbutton.png" class="forwardbutton" width="3%">
 </a>
     </div>
-       <script src= "script.js"> </script>
- <script src= "scriptVol.js"> </script>
-  </main>
-    
-      <script src="swup.js"></script>
- <script>
-     const swup = new Swup();
-     </script>
+         <script src= "script.js" class="scriptjs"> </script>
+ <script src= "scriptVol.js" class="scriptVoljs"> </script>
+</main>
+
+<script src="swup.js"></script>
+<script> 
+    function init() {if (document.querySelector(".scriptjs")) {}
+                     if (document.querySelector(".scriptVoljs")) {}
+                    };
+       const swup = new Swup();
+        init();
+    swup.on('contentReplaced', init);
+
+</script>
     </body>
     </html>
