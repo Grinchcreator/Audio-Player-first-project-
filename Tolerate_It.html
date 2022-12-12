@@ -62,6 +62,8 @@
   </main>
     
       <script src="swup.js"></script>
- <script> const swup = new Swup();</script>
+ <script> const swup = new Swup();
+      init();
+     swup.on('contentReplaced', init);</script>
     </body>
     </html>
