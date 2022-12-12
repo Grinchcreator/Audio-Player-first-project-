@@ -60,10 +60,10 @@
 
 <script src="swup.js"></script>
 <script> 
-    function unload() {if (document.querySelector(".scriptjs")) {}
+    
+       const swup = new Swup(function unload() {if (document.querySelector(".scriptjs")) {}
                      if (document.querySelector(".scriptVoljs")) {}
-                    };
-       const swup = new Swup();
+                    };);
 swup.on('willReplaceContent', unload);
 
 </script>
