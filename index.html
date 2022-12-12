@@ -60,8 +60,12 @@
 
 <script src="swup.js"></script>
  <script> const swup = new Swup();
-     init();
-     swup.on('contentReplaced', init);
+    window.onload = function() {
+    if(!window.location.hash) {
+        window.location = window.location + '#loaded';
+        window.location.reload();
+    }
+}
      </script>
 </body>
 </html>
