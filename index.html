@@ -12,6 +12,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 </head>
 <body>
+  <main id="swup" class="transition-fade">
  <video autoplay loop muted plays-inline class ="back-video">
         <source src="back-video.mp4"> </video>
 <div class="player">
@@ -22,7 +23,7 @@
       <p> Taylor Swift - Champagne Problems </p>
 
     <audio id="song" src="Taylor Swift - Champagne Problems.mp3"></audio>
- <script src= "script.js"> </script>
+
 <div class="containers">
 <div class="slidecontainer">
     <div class="current-time">00:00</div>    <div class="total-duration">00:00</div>
@@ -33,7 +34,7 @@
   <input type="range" min="1" max="100" value="60" class="slider" id="myRange" onchange="setVolume()">
   <i class = "fa fa-volume-up"> </i>
 </div>
- <script src= "scriptVol.js"> </script>
+
 </div>
   <div class="buttons">  
  <div class="ppbutton">
@@ -48,24 +49,15 @@
     <a onclick="document.getElementById('song').pause()" id="pp">PP</a>
     </div>
 
-<form action="snow_on_the_beach.html">
-     
-         <div class="backbutton">  
-     <input type="image" name="backbutton" src="backbutton.png" width="5%">
-         </div>
-      </form>
-      <form action="Tolerate_It.html">
-         <div class="forwardbutton"> 
-     <input type="image" name="forwardbutton" src="forwardbutton.png" width="7%"> 
-           </div>
-        </div>
-     </div>
-     </form>
-     </div>
-
- 
-
-
+    <a href="/Users/1/Desktop/proect/snow_on_the_beach.html">  
+     <img src= "backbutton.png" class="backbutton" width="3%">
+        </a>
+      <a href="/Users/1/Desktop/proect/Tolerate_It.html"><img src="forwardbutton.png" class="forwardbutton" width="3%">
 </div>
-    </body>
-    </html>
+</main>
+ <script src= "/Users/1/Desktop/proect/script.js"> </script>
+<script src= "/Users/1/Desktop/proect/scriptVol.js"> </script>
+<script src="/Users/1/Desktop/proect/swup.js"></script>
+<script> const swup = new Swup();</script>
+</body>
+</html>

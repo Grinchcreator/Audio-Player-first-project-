@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body id="swup" class="transition-fade">
  <video autoplay loop muted plays-inline class ="back-video">
         <source src="back-video4.mp4"> </video>
 <div class= "player">
@@ -22,7 +22,6 @@
  <br>
 <p> Taylor Swift feat. Lana Del Rey - Snow On The Beach </p>
 <audio id="song" src="Taylor Swift feat. Lana Del Rey - Snow On The Beach.mp3"></audio>
- <script src= "script.js"> </script>
 
  <div class="slidecontainer">
     <div class="current-time">00:00</div>
@@ -35,7 +34,6 @@
   <input type="range" min="1" max="100" value="60" class="slider" id="myRange" onchange="setVolume()">
   <i class = "fa fa-volume-up"> </i>
 </div>
-   <script src= "scriptVol.js"> </script>
  <div class="ppbutton">
       <div class="playbutton">
     <a onclick="document.getElementById('song').play()" id="play"><img src="playbutton.png" style="width:50px; height:50px; "></a>
@@ -47,19 +45,15 @@
     <a onclick="document.getElementById('song').pause()" id="pp">PP</a>
       </div>
  </div>
-  <form action="Exile.html">
-      <div class="buttons">  
-         <div class="backbutton">
-      <input type="image" name="backbutton" src="backbutton.png" width="5%">
-         </div>
-  </form>
-     <form action="index.html">
-         <div class="forwardbutton">  
-     <input type="image" name="forwardbutton" src="forwardbutton.png" width="7%"> 
-          </div>
-    </div>
-</form>
+ <a href="/Users/1/Desktop/proect/Exile.html">
+  <img src="backbutton.png" class="backbutton" width="3%">
+  </a>
+  <a href="/Users/1/Desktop/proect/index.html">
+    <img src="forwardbutton.png" class="forwardbutton" width="3%">
+  </a>
      </div>
      </div>
-    </body>
-    </html>
+     <script src= "/Users/1/Desktop/proect/script.js"> </script>
+     <script src= "/Users/1/Desktop/proect/scriptVol.js"> </script>
+</body>
+ </html>

@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title> Taylor Swift - Songs to love </title> 
-<link rel = "stylesheet" href=style.css>
+<link rel = "stylesheet" href=/style.css>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-<link rel="icon" href="favicon.png" type="image/x-icon">
+<link rel="icon" href="/favicon.png" type="image/x-icon">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-
 </head>
+
 <body>
+  <main id="swup" class="transition-fade">
      <video autoplay loop muted plays-inline class ="back-video">
         <source src="back-video2.mp4"> </video>
 <div class= "player">
@@ -23,7 +24,7 @@
 <p> Taylor Swift - Tolerate It </p>
   <audio id="song" src="Taylor Swift - Tolerate It.mp3"></audio>
 
- <script src= "script.js"> </script>
+
 
  <div class="slidecontainer">
     <div class="current-time">00:00</div>
@@ -37,7 +38,6 @@
   <i class = "fa fa-volume-up"> </i>
 </div>
 
-   <script src= "scriptVol.js"> </script>
  <div class="ppbutton">
       <div class="playbutton">
     <a onclick="document.getElementById('song').play()" id="play"><img src="playbutton.png" style="width:50px; height:50px; "></a>
@@ -49,20 +49,17 @@
     <a onclick="document.getElementById('song').pause()" id="pp">PP</a>
       </div>
  </div>
- <form action="index.html">
-    <div class="buttons">  
-         <div class="backbutton">  
- <input type="image" name="backbutton" src="backbutton.png" width="5%">
-         </div>
-  </form>
-         <div class="forwardbutton">  
- <form action="Exile.html">
- <input type="image" name="forwardbutton" src="forwardbutton.png" width="7%">
-          </div>
+ <a href= "/Users/1/Desktop/proect/index.html">
+  <img src= "/Users/1/Desktop/proect/backbutton.png" class="backbutton" width="3%">
+</a>
+  <a href= "/Users/1/Desktop/proect/Exile.html">
+    <img src="/Users/1/Desktop/proect/forwardbutton.png" class="forwardbutton" width="3%">
+</a>
     </div>
-    </div>
-</form>
-
-    </div>
+  </main>
+    <script src= "/Users/1/Desktop/proect/script.js"> </script>
+    <script src= "/Users/1/Desktop/proect/scriptVol.js"> </script>
+    <script src="/Users/1/Desktop/proect/swup.js"></script>
+    <script> const swup = new Swup();</script>
     </body>
     </html>
