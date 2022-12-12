@@ -54,12 +54,14 @@
         </a>
       <a href="https://grinchcreator.github.io/Taylor-Swift-Audio-Player-first-project-/Tolerate_It.html"><img src="forwardbutton.png" class="forwardbutton" width="3%">
 </div>
-      <script src= "script.js"> </script>
- <script src= "scriptVol.js"> </script>
+      <script src= "script.js" class="scriptjs"> </script>
+ <script src= "scriptVol.js" class="scriptVoljs"> </script>
 </main>
 
 <script src="swup.js"></script>
-<script> const swup = new Swup();
+<script> 
+    function init() {scriptjs; scriptVoljs};
+       const swup = new Swup();
         init();
     swup.on('contentReplaced', init);
 
