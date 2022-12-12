@@ -71,7 +71,8 @@ left: 55%}
 	opacity: 1;
   }
 html.is-animating .transition-fade {
-	opacity: 0.5;  }
+	opacity: 0; 
+transform: translateX(100%);}
 
 @media (min-device-width:320px) and (max-device-width:480px)
 	{.back-video{display: none}
