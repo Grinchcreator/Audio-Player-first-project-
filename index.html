@@ -60,7 +60,9 @@
 
 <script src="swup.js"></script>
 <script> 
-    function init() {scriptjs; scriptVoljs};
+    function init() {if (document.querySelector(".scriptjs")) {}
+                     if (document.querySelector(".scriptVoljs")) {}
+                    };
        const swup = new Swup();
         init();
     swup.on('contentReplaced', init);
