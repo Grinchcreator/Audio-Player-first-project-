@@ -60,12 +60,11 @@
 
 <script src="swup.js"></script>
 <script> 
-    function init() {if (document.querySelector(".scriptjs")) {}
+    function unload() {if (document.querySelector(".scriptjs")) {}
                      if (document.querySelector(".scriptVoljs")) {}
                     };
        const swup = new Swup();
-        init();
-    swup.on('contentReplaced', init);
+swup.on('willReplaceContent', unload);
 
 </script>
 </body>
