@@ -96,13 +96,13 @@ left: 55%}
 			{position: fixed;
 			top: 80%;
 			left:50%;}
-			.backbutton {width:10%;
+			.backbutton {width:5%;
 				position:fixed;
 				top:80%;
 				left:15%;
 			}
 			
-			.forwardbutton{ width:10%;
+			.forwardbutton{ width:5%;
 				position:fixed;
 				top:80%;
 				left: 65%}
@@ -113,6 +113,6 @@ left: 55%}
 			bottom: 17%;
 			left:41%;}
 			.total-duration{ position: fixed;
-				top:61%;
+				top:60%;
 			left: 65%}
 		}
