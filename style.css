@@ -66,13 +66,7 @@ left: 55%}
 .artcover {width: 250px; height: 250px;
 	opacity: 0.95;}
 
-.transition-fade {
-	transition: 1s;
-	opacity: 1;
-  }
-html.is-animating .transition-fade {
-	opacity: 0; 
-transform: translateX(100%);}
+
 
 @media (min-device-width:320px) and (max-device-width:480px)
 	{.back-video{display: none}
@@ -102,13 +96,13 @@ transform: translateX(100%);}
 			{position: fixed;
 			top: 80%;
 			left:50%;}
-			.backbutton {width:180%;
+			.backbutton {width:20%;
 				position:fixed;
 				top:80%;
 				left:15%;
 			}
 			
-			.forwardbutton{ width:130%;
+			.forwardbutton{ width:20%;
 				position:fixed;
 				top:80%;
 				left: 65%}
