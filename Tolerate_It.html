@@ -61,15 +61,15 @@
 <script type= "text/javascript">
 $(document).ready(function(){
  var body = $("body");
- body.fadeIn(1500);
+ body.fadeIn(2500);
  $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto']):not(id='song')", 
  function(e) {
   e.preventDefault();
-  $("body").fadeOut(1500);
+  $("body").fadeOut(2500);
   var self = this;
   setTimeout(function () {
    window.location.href = $(self).attr("href");
-  }, 1500);
+  }, 2500);
  });
 });
 </script>
