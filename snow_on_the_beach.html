@@ -57,14 +57,14 @@
    <script type= "text/javascript">
 $(document).ready(function(){
  var body = $("body");
- body.fadeIn(600);
+ body.fadeIn(1500);
  $(document).on("click", "a:not([href^='#']):not([href^='tel']):not([href^='mailto']):not(id='song')", function(e) {
   e.preventDefault();
-  $("body").fadeOut(600);
+  $("body").fadeOut(1500);
   var self = this;
   setTimeout(function () {
    window.location.href = $(self).attr("href");
-  }, 600);
+  }, 1500);
  });
 });
 </script>
